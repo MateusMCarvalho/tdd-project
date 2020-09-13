@@ -1,0 +1,1 @@
+O teste funcional verifica os requisitos funcionais do sistema da aplicação e pode envolver mais de uma classe ou packed e podem ser realizados de forma manual, automatizada ou semi automatizada. Os testes de unidade utlizam envolvem apenas uma classe, são independentes e automatizados. 
