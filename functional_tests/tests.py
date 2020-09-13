@@ -69,7 +69,7 @@ class NewVisitorTest(unittest.TestCase):
 
         # Satisfeita, ela vai dormir
 
-            def test_multiple_users_can_start_lists_at_different_urls(self):
+    def test_multiple_users_can_start_lists_at_different_urls(self):
         # Maria começa uma nova lista
         self.browser.get(self.live_server_url)
         inputbox = self.browser.find_element_by_id('id_new_item')
@@ -108,6 +108,3 @@ class NewVisitorTest(unittest.TestCase):
         self.assertIn('Comprar leite', page_text)
 
         # Satisfeitos, ambos vão dormir
-
-if __name__ == '__main__':
-    unittest.main()
